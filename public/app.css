@@ -1,0 +1,32 @@
+body {
+    margin: 50px 0px auto auto;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+hr {
+    margin: 0 auto;
+}
+
+#movie-list > li {
+    float: left;
+    margin-right: 50px;
+    width: 120px;
+}
+
+#movie-list > li > .poster {
+    display: block;
+    float: left;
+    margin-right: 0px;
+}
+
+#movie-list > li > .poster,
+#movie-list > li > .poster > img {
+    width: 100%;
+    height: 100%;
+}
